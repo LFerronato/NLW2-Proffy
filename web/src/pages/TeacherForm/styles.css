@@ -33,7 +33,23 @@
   padding-bottom: 1.6rem;
   border-bottom: 1px solid var(--color-line-in-white);
 }
-
+#page-teacher-form main fieldset legend button {
+  border: 0;
+  background: none;
+  color: var(--color-primary);
+  font: 700 1.6rem Archivo;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 0.2rem;
+}
+#page-teacher-form main fieldset legend button:hover {
+  color: var(--color-primary-dark);
+  background: var(--color-text-in-primary);
+}
+#page-teacher-form main fieldset .input-block + .textarea-block,
+#page-teacher-form main fieldset .select-block + .input-block {
+  margin-top: 2.4rem;
+}
 #page-teacher-form main label {
   color: var(--color-text-complement);
 }
@@ -81,21 +97,36 @@
   #page-teacher-form {
     max-width: 100vw;
   }
+
   #page-teacher-form .page-header .header-content {
     margin-bottom: 0;
   }
+
   #page-teacher-form main fieldset {
     padding: 0 6.4rem;
   }
+
+  #page-teacher-form main .schedule-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 1.6rem;
+  }
+
+  #page-teacher-form main .schedule-item .input-block {
+    margin-top: 0 !important;
+  }
+
   #page-teacher-form main footer {
     padding: 4.0rem 6.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   #page-teacher-form main footer p {
     justify-content: space-between;
   }
+
   #page-teacher-form main footer button{
     width: 20rem;
     margin-top: 0;

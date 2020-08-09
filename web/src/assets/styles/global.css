@@ -24,7 +24,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -46,6 +46,7 @@ body {
 body,
 input,
 button,
+select,
 textarea {
   font: 500 1.6rem Poppins;
   color: var(--color-text-base);
