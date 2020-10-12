@@ -8,3 +8,8 @@
 - Rota para criar uma nova conexão;
 - ...
 
+# WEB
+Status: Done!
+
+# MOBILE
+Status: Developing
